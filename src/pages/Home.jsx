@@ -49,7 +49,7 @@ const Home = () => {
             <img
               src={getImageUrl(featuredMovie.backdrop_path, 'original')}
               alt={featuredMovie.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover "
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/30" />
           </div>
@@ -60,14 +60,14 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                Find your next
-                <span className="block text-primary-400">favorite movie 🍿</span>
-              </h1>
-              
-              <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                Discover amazing films, read reviews, and dive into the world of cinema
-              </p>
+             <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight drop-shadow-lg">
+                Discover your next
+                <span className="block text-pink-400 dark:text-blue-400">Cinematic Obsession</span>
+            </h1>
+
+            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto drop-shadow-md">
+                Explore top films, read in-depth reviews, and dive into the world of cinema.
+            </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
@@ -144,7 +144,7 @@ const Home = () => {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Why Choose CineFind?
+              Why Choose FilmFlare?
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
               Your ultimate companion for discovering and exploring movies

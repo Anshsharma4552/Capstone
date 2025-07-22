@@ -8,16 +8,16 @@ const Footer = () => {
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <Film className="h-6 w-6 text-primary-500" />
             <span className="text-lg font-bold text-gray-900 dark:text-white">
-              CineFind
+              FilmFlare
             </span>
           </div>
           
-          <div className="flex items-center text-sm text-gray-600 dark:text-gray-400">
-            Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> for movie lovers
-          </div>
+          <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
+            Crafted for true movie buffs
+            </div>
           
           <div className="text-sm text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
-            © 2024 CineFind. All rights reserved.
+            © 2025 FilmFlare. All rights reserved.
           </div>
         </div>
       </div>
