@@ -14,7 +14,7 @@ const LoadingSpinner = ({ size = 'medium' }) => {
         animate={{ rotate: 360 }}
         transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
       >
-        <Film className={`${sizeClasses[size]} text-primary-500`} />
+        <Film className={`${sizeClasses[size]} text-blue-500`} />
       </motion.div>
     </div>
   );
