@@ -4,7 +4,8 @@ import { Filter, Grid, List } from 'lucide-react';
 import { tmdbApi } from '../services/tmdbApi';
 import MovieCard from '../components/UI/MovieCard';
 import SearchBar from '../components/UI/SearchBar';
-import LoadingSpinner from '../components/UI/Loadingspinner';
+import LoadingSpinner from '../components/UI/LoadingSpinner';
+
 const Discover = () => {
   const [movies, setMovies] = useState([]);
   const [genres, setGenres] = useState([]);

@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Star, Calendar, Clock, ArrowLeft, User, Quote } from 'lucide-react';
 import { tmdbApi, getImageUrl } from '../services/tmdbApi';
-import LoadingSpinner from '../components/UI/Loadingspinner';
+import LoadingSpinner from '../components/UI/LoadingSpinner';
 
 const MovieDetails = () => {
   const { id } = useParams();

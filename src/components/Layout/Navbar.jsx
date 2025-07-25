@@ -23,7 +23,6 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Film className="h-8 w-8 text-primary-500" />
               <span className="text-xl font-bold text-gray-900 dark:text-white">
                 FilmFlare
               </span>
@@ -54,7 +53,6 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-2">
             <button
               onClick={toggleDarkMode}

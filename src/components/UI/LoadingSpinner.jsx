@@ -1,5 +1,7 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Film } from 'lucide-react';
+
 
 const LoadingSpinner = ({ size = 'medium' }) => {
   const sizeClasses = {

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Play, TrendingUp, Star, ArrowRight, Search } from 'lucide-react';
 import { tmdbApi, getImageUrl } from '../services/tmdbApi';
 import MovieCard from '../components/UI/MovieCard';
-import LoadingSpinner from '../components/UI/Loadingspinner';
+import LoadingSpinner from '../components/UI/LoadingSpinner';
 
 const Home = () => {
   const [featuredMovies, setFeaturedMovies] = useState([]);
