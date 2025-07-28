@@ -33,7 +33,6 @@ const SignIn = () => {
           className="text-center"
         >
           <Link to="/" className="inline-flex items-center justify-center mb-8">
-            <Film className="h-12 w-12 text-primary-500" />
             <span className="ml-2 text-2xl font-bold text-gray-900 dark:text-white">
               FilmFlare
             </span>
